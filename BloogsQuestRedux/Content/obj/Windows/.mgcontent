@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/darkdirt.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/dirt.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/player.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/rock1.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/rock2.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/shrub.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/stump.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/wetdirt.png</File>
+    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/Canon.mp3</File>
+  </SourceFiles>
+</SourceFileCollection>
