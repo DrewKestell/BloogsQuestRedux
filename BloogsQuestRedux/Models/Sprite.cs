@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace BloogsQuest.Models
+namespace BloogsQuestRedux.Models
 {
     public class Sprite
     {

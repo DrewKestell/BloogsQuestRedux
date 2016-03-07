@@ -1,4 +1,4 @@
-﻿namespace BloogsQuest.Models
+﻿namespace BloogsQuestRedux.Models
 {
     public class TilePrototype
     {

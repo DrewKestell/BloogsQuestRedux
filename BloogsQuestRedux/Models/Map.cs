@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace BloogsQuest.Models
+namespace BloogsQuestRedux.Models
 {
     public class Map
     {
@@ -34,23 +34,23 @@ namespace BloogsQuest.Models
                     };
                     var rand = random.NextDouble();
 
-                    if (rand > 0 && rand < 0.9)
+                    if (rand > 0 && rand < 0.84)
                     {
                         tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "dirt");
                     }
-                    //if (rand > 0.6 && rand < 0.7)
-                    //{
-                    //    tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "rock1");
-                    //}
-                    //if (rand > 0.7 && rand < 0.8)
-                    //{
-                    //    tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "rock2");
-                    //}
-                    //if (rand > 0.8 && rand < 0.9)
-                    //{
-                    //    tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "stump");
-                    //}
-                    if (rand > 0.9)
+                    if (rand > 0.85 && rand < 0.88)
+                    {
+                        tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "rock1");
+                    }
+                    if (rand > 0.88 && rand < 0.92)
+                    {
+                        tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "rock2");
+                    }
+                    if (rand > 0.92 && rand < 0.96)
+                    {
+                        tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "stump");
+                    }
+                    if (rand > 0.96)
                     {
                         tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "shrub");
                     }
@@ -60,11 +60,16 @@ namespace BloogsQuest.Models
             }
         }
 
+        public IEnumerable<Tile> GetBlockedTiles()
+        {
+            return Tiles.Where(x => !x.Prototype.IsPassable);
+        }
+
         public void Draw(SpriteBatch spriteBatch, Vector2 cameraPosition)
         {
             foreach (var tile in Tiles)
             {
-                // TODO: clean this logic up - probably common enough to have in a method somewhere
+                // TODO: clean this up?
                 if ((tile.Position.X >= cameraPosition.X - TileSize && tile.Position.X <= cameraPosition.X + Global.WindowWidth + TileSize) && (tile.Position.Y >= cameraPosition.Y - TileSize && tile.Position.Y <= cameraPosition.Y + Global.WindowHeight + TileSize))
                     spriteBatch.Draw(tile.Prototype.Sprite.Texture, new Vector2(tile.Position.X, tile.Position.Y), Color.White);
             }

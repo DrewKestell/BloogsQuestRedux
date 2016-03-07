@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/rock2.png</SourceFile>
-  <SourceTime>2016-02-26T00:55:03.3016097-06:00</SourceTime>
-  <DestFile>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/bin/Windows/rock2.xnb</DestFile>
-  <DestTime>2016-02-26T01:01:49.3362705-06:00</DestTime>
+  <SourceFile>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/rock2.png</SourceFile>
+  <SourceTime>2016-02-26T13:40:18.1384936-06:00</SourceTime>
+  <DestFile>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/bin/Windows/rock2.xnb</DestFile>
+  <DestTime>2016-02-26T13:40:33.0168739-06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T12:14:44-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

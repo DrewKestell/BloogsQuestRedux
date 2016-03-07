@@ -32,3 +32,38 @@ c:\users\drew\documents\visual studio 2015\Projects\BloogsQuestRedux\BloogsQuest
 c:\users\drew\documents\visual studio 2015\Projects\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\wetdirt.xnb
 c:\users\drew\documents\visual studio 2015\Projects\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\Canon.wma
 c:\users\drew\documents\visual studio 2015\Projects\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\Canon.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\obj\x86\Debug\BloogsQuestRedux.exe
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\obj\x86\Debug\BloogsQuestRedux.pdb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\Canon.wma
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\Canon.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\darkdirt.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\dirt.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\player.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\rock1.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\rock2.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\shrub.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\stump.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\Content\wetdirt.xnb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\BloogsQuestRedux.exe
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\BloogsQuestRedux.pdb
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\User\Source\Repos\BloogsQuestRedux\BloogsQuestRedux\obj\x86\Debug\BloogsQuestRedux.csprojResolveAssemblyReference.cache

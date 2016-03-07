@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace BloogsQuest.Models
+namespace BloogsQuestRedux.Models
 {
     public class Tile
     {

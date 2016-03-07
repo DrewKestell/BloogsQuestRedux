@@ -1,4 +1,4 @@
-﻿namespace BloogsQuest
+﻿namespace BloogsQuestRedux
 {
     public static class Global
     {

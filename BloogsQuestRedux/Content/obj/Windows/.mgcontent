@@ -4,14 +4,14 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/darkdirt.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/dirt.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/player.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/rock1.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/rock2.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/shrub.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/stump.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/wetdirt.png</File>
-    <File>c:/users/drew/documents/visual studio 2015/Projects/BloogsQuestRedux/BloogsQuestRedux/Content/Canon.mp3</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/darkdirt.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/dirt.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/player.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/rock1.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/rock2.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/shrub.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/stump.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/wetdirt.png</File>
+    <File>C:/Users/User/Source/Repos/BloogsQuestRedux/BloogsQuestRedux/Content/Canon.mp3</File>
   </SourceFiles>
 </SourceFileCollection>
