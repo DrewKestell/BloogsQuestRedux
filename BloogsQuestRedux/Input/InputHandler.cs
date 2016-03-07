@@ -9,6 +9,55 @@ namespace BloogsQuestRedux.Input
 {
     public class InputHandler
     {
+        private MoveCommand MoveRight { get; set; }
+        private MoveCommand MoveLeft { get; set; }
+        private MoveCommand MoveDown { get; set; }
+        private MoveCommand MoveUp { get; set; }
+
+        public InputHandler()
+        {
+            MoveRight = new MoveRightCommand();
+            MoveLeft = new MoveLeftCommand();
+            MoveDown = new MoveDownCommand();
+            MoveUp = new MoveUpCommand();
+        }
+
+        public void HandleInput(Scene currentScene, KeyboardState keyboardState, GameTime gameTime)
+        {
+            MovePlayer(currentScene, keyboardState, gameTime);
+        }
+
+        private void MovePlayer(Scene currentScene, KeyboardState keyboardState, GameTime gameTime)
+        {
+            MoveCommand moveCommand;
+
+            if (keyboardState.IsKeyDown(Keys.Right))
+            {
+                moveCommand = MoveRight;
+            }
+
+            else if (keyboardState.IsKeyDown(Keys.Up))
+            {
+                moveCommand = MoveUp;
+            }
+
+            else if (keyboardState.IsKeyDown(Keys.Left))
+            {
+                moveCommand = MoveLeft;
+            }
+
+            else if (keyboardState.IsKeyDown(Keys.Down))
+            {
+                moveCommand = MoveDown;
+            }
+
+            else
+                return;
+
+            moveCommand.Move(gameTime, currentScene.Player, currentScene.Map.GetBlockedTiles());
+            currentScene.Camera.TryMove(keyboardState, currentScene.Player.Position, moveCommand.GetMovementVector(gameTime), IsMovingHorizontally(keyboardState), IsMovingVertically(keyboardState));                         
+        }
+
         private bool IsMovingHorizontally(KeyboardState keyboardState)
         {
             return keyboardState.IsKeyDown(Keys.Right) || keyboardState.IsKeyDown(Keys.Left);
@@ -19,48 +68,11 @@ namespace BloogsQuestRedux.Input
             return keyboardState.IsKeyDown(Keys.Up) || keyboardState.IsKeyDown(Keys.Down);
         }
 
-        public void HandleInput(Scene currentScene, KeyboardState keyboardState)
+        private bool CheckCollision(Scene currentScene, Vector2 movementVector)
         {
-            MovePlayer(currentScene, keyboardState);
-        }
+            var newPosition = currentScene.Player.Position + movementVector;
 
-        private void MovePlayer(Scene currentScene, KeyboardState keyboardState)
-        {
-            Vector2 newPlayerPosition;
-
-            if (keyboardState.IsKeyDown(Keys.Right))
-            {
-                newPlayerPosition = new Vector2(currentScene.Player.Position.X + Global.PlayerSpeed, currentScene.Player.Position.Y);
-            }
-
-            else if (keyboardState.IsKeyDown(Keys.Up))
-            {
-                newPlayerPosition = new Vector2(currentScene.Player.Position.X, currentScene.Player.Position.Y - Global.PlayerSpeed);
-            }
-
-            else if (keyboardState.IsKeyDown(Keys.Left))
-            {
-                newPlayerPosition = new Vector2(currentScene.Player.Position.X - Global.PlayerSpeed, currentScene.Player.Position.Y);
-            }
-
-            else if (keyboardState.IsKeyDown(Keys.Down))
-            {
-                newPlayerPosition = new Vector2(currentScene.Player.Position.X, currentScene.Player.Position.Y + Global.PlayerSpeed);
-            }
-
-            else
-                newPlayerPosition = new Vector2(currentScene.Player.Position.X, currentScene.Player.Position.Y);
-
-            if (!CheckCollision(currentScene, newPlayerPosition))
-            {
-                currentScene.Player.Position = newPlayerPosition;
-                currentScene.Camera.TryMove(keyboardState, currentScene.Player.Position, newPlayerPosition - currentScene.Player.Position, IsMovingHorizontally(keyboardState), IsMovingVertically(keyboardState));
-            }                
-        }
-
-        private bool CheckCollision(Scene currentScene, Vector2 newPlayerPosition)
-        {
-            return currentScene.Map.GetBlockedTiles().Any(x => x.BoundingBox.Intersects(new Rectangle((int)newPlayerPosition.X, (int)newPlayerPosition.Y, 30, 30)));
+            return currentScene.Map.GetBlockedTiles().Any(x => x.BoundingBox.Intersects(new Rectangle((int)newPosition.X, (int)newPosition.Y, 30, 30)));
         }
     }
 }

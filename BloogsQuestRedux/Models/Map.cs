@@ -34,19 +34,19 @@ namespace BloogsQuestRedux.Models
                     };
                     var rand = random.NextDouble();
 
-                    if (rand > 0 && rand < 0.84)
+                    if (rand > 0 && rand <= 0.84)
                     {
                         tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "dirt");
                     }
-                    if (rand > 0.85 && rand < 0.88)
+                    if (rand > 0.84 && rand <= 0.88)
                     {
                         tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "rock1");
                     }
-                    if (rand > 0.88 && rand < 0.92)
+                    if (rand > 0.88 && rand <= 0.92)
                     {
                         tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "rock2");
                     }
-                    if (rand > 0.92 && rand < 0.96)
+                    if (rand > 0.92 && rand <= 0.96)
                     {
                         tile.Prototype = tilePrototypes.Single(t => t.TextureFilename == "stump");
                     }

@@ -39,8 +39,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BloogsQuestGame.cs" />
+    <Compile Include="Input\MoveCommand.cs" />
     <Compile Include="Input\InputHandler.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="Input\MoveDownCommand.cs" />
+    <Compile Include="Input\MoveLeftCommand.cs" />
+    <Compile Include="Input\MoveRightCommand.cs" />
+    <Compile Include="Input\MoveUpCommand.cs" />
+    <Compile Include="Models\Actor.cs" />
     <Compile Include="Models\Camera.cs" />
     <Compile Include="Models\Map.cs" />
     <Compile Include="Models\Player.cs" />

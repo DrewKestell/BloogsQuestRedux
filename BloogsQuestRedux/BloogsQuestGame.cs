@@ -78,8 +78,8 @@ namespace BloogsQuestRedux
             }
             currentScene.Player.Sprite.LoadContent(this.Content, currentScene.Player.TextureFilename);
 
-            song = Content.Load<Song>("Canon");  // Put the name of your song in instead of "song_title"
-            MediaPlayer.Play(song);
+            //song = Content.Load<Song>("Canon");
+            //MediaPlayer.Play(song);
         }
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace BloogsQuestRedux
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            inputHandler.HandleInput(currentScene, Keyboard.GetState());
+            inputHandler.HandleInput(currentScene, Keyboard.GetState(), gameTime);
 
             base.Update(gameTime);
         }

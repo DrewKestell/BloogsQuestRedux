@@ -2,13 +2,13 @@
 
 namespace BloogsQuestRedux.Models
 {
-    public class Player
+    public class Player : Actor
     {
         public string Name { get; set; }
         public string TextureFilename { get; set; }
         public Sprite Sprite { get; set; }
-        public Vector2 Position { get; set; }
-        public Rectangle BoundingBox
+        public override Vector2 Position { get; set; }
+        public override Rectangle BoundingBox
         {
             get
             {
